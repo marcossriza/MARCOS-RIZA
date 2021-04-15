@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+    color:rgb(56, 54, 54);
+}
+
+body{
+    background: linear-gradient(to right, #242322, #b4b4b4);
+}
+
+a{
+    color:rgb(56, 54, 54) ;
+    text-decoration: none;
+}
+
+.img-holder img{
+    width: 110px;
+}
+
+.resume{
+    width: 800px;
+    background: #fff;
+    margin: 25px auto;
+  /*It's gonna make the right class into right*/
+    display: flex;
+    height: 900px;
+}
+
+
+
+.left{
+color: #292b2f;
+    width: 250px;
+    padding: 0 20px;
+}
+
+.right{
+    width: calc(100% - 250px);
+}
+
+
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.link .icon{
+    margin-right: 5px;
+}
+
+.link{
+
+
+
+/*making the icon aligned on the text*/
+display: flex;
+align-items: center;
+justify-content: center;
+color: #292b2f;
+margin-bottom: 10px;
+font-weight: 700;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color:#4895ef;
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.title:before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: 3525af;
+}
+
+.left .icon{
+    font-size: 1.2rem;
+ 
+}
+
+.left .skills .icon{
+    font-size: 3rem;
+}
+
+.left .text{
+ color:rgb(56, 54, 54);
+    font-size: 1.3rem;
+}
+
+.contact .li-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #292b2f;
+margin-top: -10px;
+font-weight: 700;
+
+}
+
+
+.contact-box{
+margin-top: 20px;
+background: #f5f3f3;
+
+}
+.contact .li-box .icon{
+    width: 50px;
+    height: 50px;
+    /*making the icon aligned on the text*/
+    display: flex;
+align-items: center;
+justify-content: center;
+color: #292b2f;
+margin-right: -10px;
+}
+
+.contact .li-box .text{
+    width: calc(100% - 50px);
+word-break: break-word;
+color: #292b2f;
+font-size: 1.1rem;
+
+}
+
+.skills ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills .li-box{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.skills .li-box .text{
+ margin-top: 5px;
+ font-weight: 700;
+}
+
+.header{
+   
+    padding: 15px 30px;
+    
+    color: #292b2f;
+    height: 50x;
+border: #292b2f solid 2px;
+margin: 15px 30px 0;
+
+}
+
+.header .name{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+color: #4895ef;
+}
+
+.header .role{
+   font-weight: 700;
+   font-size: 1.3rem; 
+}
+
+.header .about{
+  
+    line-height: 26px;
+    font-size: 1.3rem;
+}
+
+.right-inner .educ{
+    margin-top: 30px;
+}
+
+.right-inner .li-box{
+    display: flex;
+    margin-bottom: 15px;
+font-size: 1.4rem;
+margin-right: -150px;
+}
+
+.right-inner .li-box .date{
+    font-size: 1rem;
+    color: #727272;
+
+}
+
+.right-inner .li-box .info{
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+
+
+}
+
+.right-inner .li-box .info-com{
+    font-weight: 300;
+    font-size: 1rem;
+margin-top: 3px;
+
+
+}
+
+
+.right-inner .li-box .info-cont{
+    margin-top: 15px;
+
+}
+
+.right-inner .li-box .info.info:before{
+  
+   content: "";
+   position: absolute;
+   top: 3px;
+   left: 0;
+   width: 10px;
+   height: 10px;
+   background: #3525af;
+   border-radius: 50%;
+    
+}
+
+.right-inner .li-box .info::after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    height: 90%;
+    background: #3525af;
+    border-radius: 50%;
+     
+ 
+}
+
+.right-inner{
+    padding: 30px;
+    color: #292b2f;
+}
+
+.right-inner .li-box .info-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color:rgb(56, 54, 54);
+
+}
+
+
+
+.right-inner .title-main{
+    font-size: 3rem;
+color: #4895ef;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+   
+    position: relative;
+    text-align: left ;
+    margin-bottom: 15px;
+
+}
+
+
+
+@media only screen and (max-width: 425px){
+   *{
+       font-size: 1rem;
+   }
+   
+    html{
+font-size: .7rem;
+    }
+  
+    body{
+        background:none;
+        font-size: 1.rem;
+       width: 100px;
+    }
+   .left{
+       position: absolute;
+      top: 750px;
+      margin-left: 20%;
+   }
+
+   .resume{
+     width: 660px;
+  
+    }
+
+   .resume .left .title{
+       font-size: 2rem;
+   }
+
+ 
+.header .name{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+color: #4895ef;
+}
+
+.header .role{
+   font-weight: 700;
+   font-size: 1rem; 
+}
+
+.header .about{
+  
+    line-height: 15px;
+    font-size: 1rem;
+}
+
+.right-inner .educ{
+    margin-top: 30px;
+}
+
+.right-inner .li-box{
+    display: flex;
+    margin-bottom: 15px;
+font-size: 1rem;
+margin-right: -150px;
+}
+
+.right-inner .title-main{
+    font-size: 2rem;
+}
+
+
+.header{
+   
+    
+    color: #292b2f;
+    height: 200px;
+border: #292b2f solid 2px;
+
+padding: -100px;
+
+}
+
+.skills .li-box {
+  font-size: 2rem;
+}
+}
+
